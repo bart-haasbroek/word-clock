@@ -63,7 +63,7 @@ var hours = {
   negen : [09, 21],
   tien : [10, 22],
   elf : [11, 23],
-  twaalf : [12, 00]
+  twaalf : [12, 00, 24]
 }
 
 
@@ -90,7 +90,7 @@ function update_time(){
 
   var current_hours = time.getHours();
 
-  if(current_minutes >= 20 && current_hours < 23 ){
+  if(current_minutes >= 20 ){
     current_hours = current_hours + 1;
   }
 
