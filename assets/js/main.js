@@ -90,7 +90,7 @@ function update_time(){
 
   var current_hours = time.getHours();
 
-  if(current_minutes >= 20 ){
+  if(current_minutes >= 20 && current_hours < 23 ){
     current_hours = current_hours + 1;
   }
 
