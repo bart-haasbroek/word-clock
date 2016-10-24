@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no"/>
+<title>Wordclock</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+<link href="assets/css/main.css" rel="stylesheet">
+
+<script src="assets/js/jquery-3.1.1.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</head>
+
+    <body>
+        <div class="clock__container">
+            <div class="clock">
+              <div class="clock__row clock__row--first">
+                <span class="white">
+                  <span>H</span>
+                  <span>e</span>
+                  <span>t</span>
+                </span>
+                <span class="clock_filler">k</span>
+                <span class="white">
+                  <span>i</span>
+                  <span>s</span>
+                </span>
+                <span class="clock_filler">a</span>
+                <span data-time="minutes-vijf">
+                  <span>v</span>
+                  <span>i</span>
+                  <span>j</span>
+                  <span>f</span>
+                </span>
+              </div>
+              
+              <div class="clock__row clock__row--second">
+                <span data-time="minutes-tien">
+                  <span>t</span>
+                  <span>i</span>
+                  <span>e</span>
+                  <span>n</span>
+                </span>
+                <span class="clock_filler">b</span>
+                <span class="clock_filler">t</span>
+                <span class="clock_filler">z</span>
+                <span data-time="minutes-voor">
+                  <span>v</span>
+                  <span>o</span>
+                  <span>o</span>
+                  <span>r</span>
+                </span>
+              </div>
+              
+              <div class="clock__row clock__row--second">
+                <span data-time="minutes-over">
+                  <span>o</span>
+                  <span>v</span>
+                  <span>e</span>
+                  <span>r</span>
+                </span>
+                <span class="clock_filler">m</span>
+                <span class="clock_filler">e</span>
+                <span data-time="minutes-kwart">
+                  <span>k</span>
+                  <span>w</span>
+                  <span>a</span>
+                  <span>r</span>
+                  <span>t</span>
+                </span>    
+              </div>
+              
+              <div class="clock__row clock__row--second">
+                <span data-time="minutes-half">
+                  <span>h</span>
+                  <span>a</span>
+                  <span>l</span>
+                  <span>f</span>
+                </span>
+                <span class="clock_filler">s</span>
+                <span class="clock_filler">p</span>
+                <span class="clock_filler">w</span>
+                <span data-time="minutes-over_2">
+                  <span>o</span>
+                  <span>v</span>
+                  <span>e</span>
+                  <span>r</span>
+                </span>    
+              </div>
+              
+              <div class="clock__row clock__row--second">
+                <span data-time="minutes-voor_2">
+                  <span>v</span>
+                  <span>o</span>
+                  <span>o</span>
+                  <span>r</span>
+                </span>
+                <span class="clock_filler">t</span>
+                <span class="clock_filler">h</span>
+                <span class="clock_filler">g</span>
+                <span data-time="hours-een">
+                  <span>e</span>
+                  <span>e</span>
+                  <span>n</span>
+                </span>
+                <span class="clock_filler">s</span>
+              </div>
+              
+              <div class="clock__row clock__row--second">
+                <span data-time="hours-twee">
+                  <span>t</span>
+                  <span>w</span>
+                  <span>e</span>
+                  <span>e</span>
+                </span>  
+                  <span class="clock_filler">p</span>
+                  <span class="clock_filler">v</span>
+                  <span class="clock_filler">c</span>
+                <span data-time="hours-drie">
+                  <span>d</span>
+                  <span>r</span>
+                  <span>i</span>
+                  <span>e</span>
+                </span>
+              </div>
+              
+              <div class="clock__row clock__row--second">
+                <span data-time="hours-vier">
+                  <span>v</span>
+                  <span>i</span>
+                  <span>e</span>
+                  <span>r</span>
+                </span>
+                <span data-time="hours-vijf">
+                  <span>v</span>
+                  <span>i</span>
+                  <span>j</span>
+                  <span>f</span>
+                </span>
+                <span data-time="hours-zes">
+                  <span>z</span>
+                  <span>e</span>
+                  <span>s</span>
+                </span>
+              </div>
+              
+              <div class="clock__row clock__row--second">
+                <span data-time="hours-zeven">
+                  <span>z</span>
+                  <span>e</span>
+                  <span>v</span>
+                  <span>e</span>
+                  <span>n</span>
+                </span>
+                <span class="clock_filler">o</span>
+                <span data-time="hours-negen">
+                  <span>n</span>
+                  <span>e</span>
+                  <span>g</span>
+                  <span>e</span>
+                  <span>n</span>
+                 </span>
+              </div>
+              
+              
+              <div class="clock__row clock__row--second">
+                <span data-time="hours-acht">
+                  <span>a</span>
+                  <span>c</span>
+                  <span>h</span>
+                  <span>t</span>
+                </span>
+                <span data-time="hours-tien">
+                  <span>t</span>
+                  <span>i</span>
+                  <span>e</span>
+                  <span>n</span>
+                </span>
+                <span data-time="hours-elf">
+                  <span>e</span>
+                  <span>l</span>
+                  <span>f</span>
+                </span>
+              </div>
+              
+              
+              <div class="clock__row clock__row--second">
+                <span data-time="hours-twaalf">
+                  <span>t</span>
+                  <span>w</span>
+                  <span>a</span>
+                  <span>a</span>
+                  <span>l</span>
+                  <span>f</span></span>
+                <span class="clock_filler">b</span>
+                <span class="clock_filler">f</span>
+                <span data-time="minutes-uur">
+                  <span>u</span>
+                  <span>u</span>
+                  <span>r</span>
+                </span>
+              </div>
+              
+              
+              <div class="dots-container">
+                <div class="dot">•</div>
+                <div class="dot">•</div>
+                <div class="dot">•</div>
+                <div class="dot">•</div>
+              </div>
+            </div>
+        </div>
+
+    </body>
+</html>
+
